@@ -2,14 +2,14 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)`;
   }
   return '';
 }
 
 // Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(data) {
   if (license !== 'None') {
     return `\n* [License](#license)\n`;
   }
@@ -18,11 +18,11 @@ function renderLicenseLink(license) {
 
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license !== 'None') {
+function renderLicenseSection(data) {
+  if (data.license !== 'None') {
     return `## License
 
-This project is licensed under the ${license} license.`;
+This project is licensed under the ${data.license} license.`;
   }
   return '';
 }
@@ -30,7 +30,6 @@ This project is licensed under the ${license} license.`;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(data.license)}
 
 ## Description
 ${data.description}
@@ -57,3 +56,6 @@ My GitHub repo can be found at github.com/${data.github}
 }
 
 module.exports = generateMarkdown;
+module.exports = renderLicenseBadge;
+module.exports = renderLicenseLink;
+module.exports = renderLicenseSection;

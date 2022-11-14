@@ -39,7 +39,7 @@ const questions = [{
     type: 'checkbox',
     message: 'What License does the app use?',      
     name: 'license',
-    choices: ['MIT', 'Apache', 'GPL', 'GNU', 'Mozilla Public License'],
+    choices: ['MIT', 'Apache 2.0', 'Eclipse 1.0', 'GNU GPL v3', 'Mozilla Public License'],
 },
 {
     type: 'input',
