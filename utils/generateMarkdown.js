@@ -1,32 +1,35 @@
 // Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge({license}) {
+
   switch (license) {
 
-    case 'MIT' :
-      return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
-  
-  
-      case 'Mozilla Public License' :
-        return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
-  
-  
-      case 'Apache':
-        return `![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
-  
-      case 'GPLv3' :
-        return `![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)`;
-  
-      case 'BSD 3-Clause' :
-        return `![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
-  
-      default:
-        return ''
-}}
+  case 'MIT' :
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+
+
+    case 'Mozilla Public License' :
+      return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
+
+
+    case 'Apache':
+      return `![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
+
+    case 'GPLv3' :
+      return `![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)`;
+
+    case 'BSD 3-Clause' :
+      return `![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
+
+    default:
+      return ''
+}
+}
 
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection({license}) {
+
   switch (license) {
 
     case 'MIT' :
@@ -48,8 +51,9 @@ function renderLicenseSection(license) {
   
       default:
         return ''
-}}
-
+  }
+  }
+  
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
@@ -71,8 +75,6 @@ ${data.description}
 ${data.install}
 ## Usage
 ${data.usage}
-## License
-This project is licensed under the ${data.license} license.
 ## Contribution
 Contributors: ${data.contribution}
 ## Testing

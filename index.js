@@ -7,48 +7,48 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
-    message: 'What is the project title?',      
+    message: 'What title would you like your app to have?',      
     name: 'title',
 },
 {
     type: 'input',
-    message: 'Please add a description of the project.',      
+    message: 'Please provide a basic description of your app',      
     name: 'description',
 },
 {
     type: 'input',
-    message: 'How is the app installed and run?',      
+    message: 'What steps are needed for installation',      
     name: 'install',
 },
 {
     type: 'input',
-    message: 'What are the usage instructions for the app?',      
+    message: 'What are the instructions for using this app',      
     name: 'usage',
 },
 {
     type: 'input',
-    message: 'Who else contributed to this project?',      
+    message: 'Please provide contributors',      
     name: 'contribution',
 },
 {
     type: 'input',
-    message: 'What are the instructions for testing the app?',      
+    message: 'What instructions are needed for testing this app?',      
     name: 'testing',
 },
 {
-    type: 'checkbox',
-    message: 'What License does the app use?',      
+    type: 'list',
+    message: 'Please pick a License',      
     name: 'license',
-    choices: ['MIT', 'Apache 2.0', 'BSD 3-Clause', 'GNU GPL v3', 'Mozilla Public License', 'None'],
+    choices: ['MIT', 'Mozilla Public License', 'Apache', 'GPLv3', 'BSD 3-Clause','None']
 },
 {
     type: 'input',
-    message: 'What is your GitHub username?',      
+    message: 'Please provide your github username',      
     name: 'github',
 },
 {
     type: 'input',
-    message: 'What is your contact email?',      
+    message: 'What email can you be reached at?',      
     name: 'email',
 }];
 
