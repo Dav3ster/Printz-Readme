@@ -54,9 +54,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 
   const licenseBadge = renderLicenseBadge(data);
- 
   const licenseSection = renderLicenseSection(data);
-
+ 
   return `# ${data.title}
   ${licenseBadge}
 
@@ -78,6 +77,8 @@ This project is licensed under the ${data.license} license.
 Contributors: ${data.contribution}
 ## Testing
 ${data.testing}
+## License
+${licenseSection}
 ## Questions
 For questions about this repo, application, or to provide feedback please contact me at ${data.email}
 My GitHub repo can be found at github.com/${data.github}
