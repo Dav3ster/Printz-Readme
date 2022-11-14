@@ -39,7 +39,7 @@ const questions = [{
     type: 'checkbox',
     message: 'What License does the app use?',      
     name: 'license',
-    choices: ['MIT', 'Apache 2.0', 'Eclipse 1.0', 'GNU GPL v3', 'Mozilla Public License'],
+    choices: ['MIT', 'Apache 2.0', 'BSD 3-Clause', 'GNU GPL v3', 'Mozilla Public License', 'None'],
 },
 {
     type: 'input',
@@ -72,6 +72,7 @@ function init() {
         .then(function(data) {
             writeToFile('./README.md', generateMarkdown(data));
             console.log(data)
+            console.log(data.license)
             
     })    
 }
