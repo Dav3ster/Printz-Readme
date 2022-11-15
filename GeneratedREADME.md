@@ -1,8 +1,8 @@
-# d
+# Demo title
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-d
+Demo description
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -10,15 +10,15 @@ d
 * [Testing](#testing)
 * [Questions](#questions)
 ## Installation
-d
+basic demo steps
 ## Usage
-d
+basic semo instructions
 ## Contribution
-Contributors: d
+Contributors: demo contributors
 ## Testing
-d
+basic demo instructions 
 ## License
 This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.
 ## Questions
-For questions about this repo, application, or to provide feedback please contact me at d
-My GitHub repo can be found at github.com/d
+For questions about this repo, application, or to provide feedback please contact me at Davidstew87@gmail.com
+My GitHub repo can be found at github.com/Dav3ster
