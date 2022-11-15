@@ -1,24 +1,7 @@
-# Demo title
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Printz Readme
 
-## Description
-Demo description
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contribution](#contribution)
-* [Testing](#testing)
-* [Questions](#questions)
-## Installation
-demo instructions
-## Usage
-demo instructions
-## Contribution
-Contributors: demo contributors
-## Testing
-demo instructions
-## License
-This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.
-## Questions
-For questions about this repo, application, or to provide feedback please contact me at Davidstew87@gmail.com
-My GitHub repo can be found at github.com/Dav3ster
+## describtion 
+
+This challenge made me more familiar with using node and modules. The Application uses backend JavaScript to create a formal Readme.md file. I also got use to using npm tools such as inquirer to prompt users for answers. Overall it was a cool challenege that showed me how useful some of these tools can be for creating quick solutions to easy tasks.
+
+## Video Link
