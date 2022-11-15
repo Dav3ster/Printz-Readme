@@ -1,7 +1,24 @@
-# Printz Readme
+# Demo title
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Purpose of this challenge
-
-The purpose of this challenege was to get use to using different modules within node. This challenege taught me how to use back end tools such as inquirer, and how to recieve input from a user using the terminal. This application allows a user to quickly make a formal readme.md file.
-
-## vidoe link
+## Description
+Demo description
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Testing](#testing)
+* [Questions](#questions)
+## Installation
+demo instructions
+## Usage
+demo instructions
+## Contribution
+Contributors: demo contributors
+## Testing
+demo instructions
+## License
+This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> license.
+## Questions
+For questions about this repo, application, or to provide feedback please contact me at Davidstew87@gmail.com
+My GitHub repo can be found at github.com/Dav3ster
